@@ -6,9 +6,9 @@
     "final-fantasy-xiv",
     "ffxiv"
   ],
-  "homepage": "https://asvel.github.io/ffxiv-weather/",
+  "homepage": "https://YukiRinLL.github.io/ffxiv-weather/",
   "license": "MIT",
-  "repository": "https://github.com/Asvel/ffxiv-weather",
+  "repository": "https://github.com/YukiRinLL/ffxiv-weather",
   "scripts": {
     "start": "rsbuild dev",
     "build": "rsbuild build",

@@ -11,9 +11,9 @@ export function Footer() {
     <div class="footer">
       {t`FFXIV Weather Lookup`} <span title={`发布于 ${new Date(__BUILD_DATE__).toLocaleString()}`}>2412a</span>
       <span class="footer_separator">·</span>
-      <a class="footer_clickable" href="https://github.com/Asvel/ffxiv-weather#license">{t`License`}</a>
+      <a class="footer_clickable" href="https://github.com/YukiRinLL/ffxiv-weather#license">{t`License`}</a>
       <span class="footer_separator">·</span>
-      <a class="footer_clickable" href="https://github.com/Asvel/ffxiv-weather">{t`Code`}</a>
+      <a class="footer_clickable" href="https://github.com/YukiRinLL/ffxiv-weather">{t`Code`}</a>
       <span class="footer_separator">·</span>
       <span class="footer_clickable" onClick={() => setLanguageExpanded(!getLanguageExpanded())}>Language</span>
       {getLanguageExpanded() && (

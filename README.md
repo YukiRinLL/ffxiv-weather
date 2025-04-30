@@ -1,4 +1,4 @@
-# [FFXIV Weather Lookup](https://asvel.github.io/ffxiv-weather/)
+# [FFXIV Weather Lookup](https://YukiRinLL.github.io/ffxiv-weather/)
 
 Weather forecast and lookup for Final Fantasy XIV.
 
