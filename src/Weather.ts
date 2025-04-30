@@ -1,3 +1,25 @@
+// Weather.ts
+export const WEATHER_ICONS: { [key: string]: string } = {
+  'Clouds': 'http://huiji-public.huijistatic.com/ff14/uploads/3/33/060203.png',
+  'Clear Skies': 'http://huiji-public.huijistatic.com/ff14/uploads/f/f6/060201.png',
+  'Fair Skies': 'http://huiji-public.huijistatic.com/ff14/uploads/d/de/060202.png',
+  'Fog': 'http://huiji-public.huijistatic.com/ff14/uploads/6/63/060204.png',
+  'Rain': 'http://huiji-public.huijistatic.com/ff14/uploads/9/9a/060207.png',
+  'Wind': 'http://huiji-public.huijistatic.com/ff14/uploads/6/6c/060205.png',
+  'Showers': 'http://huiji-public.huijistatic.com/ff14/uploads/9/96/060208.png',
+  'Gales': 'http://huiji-public.huijistatic.com/ff14/uploads/1/19/060206.png',
+  'Thunder': 'http://huiji-public.huijistatic.com/ff14/uploads/d/d5/060209.png',
+  'Thunderstorms': 'http://huiji-public.huijistatic.com/ff14/uploads/d/db/060210.png',
+  'Dust Storms': 'http://huiji-public.huijistatic.com/ff14/uploads/3/32/060211.png',
+  'Heat Waves': 'http://huiji-public.huijistatic.com/ff14/uploads/6/6c/060214.png',
+  'Blizzards': 'http://huiji-public.huijistatic.com/ff14/uploads/9/9a/060216.png',
+  'Snow': 'http://huiji-public.huijistatic.com/ff14/uploads/6/6e/060215.png',
+  'Gloom': 'http://huiji-public.huijistatic.com/ff14/uploads/2/21/060218.png',
+  'Umbral Wind': 'http://huiji-public.huijistatic.com/ff14/uploads/2/23/060220.png',
+  'Moon Dust': 'http://huiji-public.huijistatic.com/ff14/uploads/1/19/060219.png',
+  'Astromagnetic Storms': 'http://huiji-public.huijistatic.com/ff14/uploads/8/89/060222.png',
+  'Magnetic Storms': 'http://huiji-public.huijistatic.com/ff14/uploads/c/ca/060223.png',
+};
 
 const data = {
   'Limsa Lominsa': ['Clouds', 20, 'Clear Skies', 50, 'Fair Skies', 80, 'Fog', 90, 'Rain'],

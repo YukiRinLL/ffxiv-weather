@@ -4,8 +4,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 .app {
+  background-color: #fff; /* 白色主体背景 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影 */
   max-width: 960px;
   padding: 18px;
   margin: 0 auto;
@@ -183,6 +184,7 @@ button:active {
 }
 
 .match {
+  border-color: #ddd; /* 浅灰色边框 */
   margin-top: 6px;
 }
 .match table {
@@ -348,4 +350,32 @@ html[lang="zh-CN"] .weather-sequence_ellipsis {
 }
 .footer_language-list {
   margin-top: 2px;
+}
+
+
+/* app.css */
+html, body {
+  background-color: #f9f9f9; /* 浅灰色背景 */
+  color: #333; /* 深灰色文字 */
+}
+
+button, input, textarea {
+  background-color: #fff; /* 白色按钮和输入框 */
+  border-color: #ddd; /* 浅灰色边框 */
+  color: #333; /* 深灰色文字 */
+}
+
+.condition_zone-item, .condition_weather-item {
+  background-color: #fff; /* 白色背景 */
+  border-color: #ddd; /* 浅灰色边框 */
+  color: #333; /* 深灰色文字 */
+}
+
+.condition_zone-item.-active, .condition_weather-item.-active {
+  background-color: #333; /* 活动状态深灰色背景 */
+  color: #fff; /* 白色文字 */
+}
+
+.match_list-date, .match_list-time, .match_list-weather {
+  color: #333; /* 深灰色文字 */
 }
