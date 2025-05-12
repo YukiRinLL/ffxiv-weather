@@ -731,7 +731,7 @@ const texts = {
     de: 'Urqopacha',
     fr: 'Urqopacha',
     ja: 'オルコ・パチャ',
-    zh: '奥阔帕恰山',
+    zh: '羊驼山',
     ko: '',
   },
   'Kozama\'uka': {
@@ -780,6 +780,14 @@ const texts = {
     fr: 'La Mémoire vivante',
     ja: 'リビング・メモリー',
     zh: '记忆',
+    ko: '',
+  },
+  'Sinus Ardorum': {
+    en: 'Sinus Ardorum',
+    de: 'Sinus Ardorum',
+    fr: 'Sinus Ardorum',
+    ja: '焦がれの入江',
+    zh: '',
     ko: '',
   },
 
